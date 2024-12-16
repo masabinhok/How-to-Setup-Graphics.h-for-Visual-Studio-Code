@@ -1,30 +1,28 @@
-# **Setting Up `graphics.h` in VSCode**
+# Setting Up `graphics.h` in VSCode
 
-This guide explains how to set up and use `graphics.h` in Visual Studio Code for graphics programming in C++.
+This guide provides a step-by-step approach to setting up and using `graphics.h` in Visual Studio Code for graphics programming in C++.
 
 ---
 
-## **Prerequisites**
-You just need these to get started with graphics:
-1. **MinGW** (Installed in `C:/mingw`).
+## Prerequisites
+Ensure you have the following tools and files ready before proceeding:
+
+1. **MinGW** (installed at `C:/mingw`).
 2. **Required Files**:
    - `graphics.h`
    - `winbgim.h`
    - `libbgi.a`
-3. **VSCode** with the following extensions installed:
+3. **VSCode** with these extensions installed:
    - Code Runner
    - Exe Runner
    - C/C++ Extension Pack
 4. **Cloned Repository**:
-   - Contains all the required files inside a folder named `required_files`.
+   - Contains all the required files in a folder named `required_files`.
 
 ---
 
-
-
-## **Folder Structure**
-
-After cloning the repository, the project structure should look like this:
+## Folder Structure
+After cloning the repository, the project directory should look like this:
 
 ```
 Project Folder
@@ -40,50 +38,85 @@ Project Folder
 │   └── libbgi.a
 ```
 
-> **Note:** The `required_files` folder is temporary and can be deleted after setup.
+> **Note:** The `required_files` folder is only needed during setup and can be removed afterward.
 
 ---
 
-## **Setup Instructions**
+## Setup Instructions
 
-1. **Clone the Repository:**
-   - Open a terminal and run the following command to clone the repository:
-     ```sh
-     git clone <repository-url>
-     ```
-   - Replace `<repository-url>` with the actual URL of the repository.
+### 1. Clone the Repository
+Open a terminal and run the following command:
 
-2. **Prepare MinGW:**
-   - If you don’t have **MinGW** installed, follow [this video](#) to install it.
-   - Once installed, confirm it’s located at `C:/mingw`.
+```bash
+git clone <repository-url>
+```
 
-3. **Copy Graphics Files:**
-   - Move `graphics.h` and `winbgim.h` to:
-     ```
-     C:/mingw/include
-     ```
-   - Move `libbgi.a` to:
-     ```
-     C:/mingw/lib
-     ```
-
-4. **Configure VSCode:**
-   - Open the project folder in VSCode.
-   - The `.vscode` folder already includes:
-     - `c_cpp_properties.json`: Configures C++ include paths.
-     - `tasks.json`: Automates build and execution.
-
-5. **Write Your Code:**
-   - Write your C++ programs in the `src` folder located inside the `Home` directory.
-   - Compiled executables will be generated in the `build` folder.
-
-6. **Run Your Code:**
-   - Use the **Code Runner** extension to compile and execute your programs from VSCode.
+Replace `<repository-url>` with the actual URL of the repository.
 
 ---
 
-## **YouTube Tutorial**
+### 2. Install MinGW (If Not Installed)
+If MinGW is not already installed:
 
-For a detailed step-by-step tutorial, watch the YouTube video:  
-[**How to Set Up `graphics.h` in VSCode**](#)
+- Follow [this video tutorial](https://www.youtube.com/watch?v=AIX8JSr6MQY) for installation.
+- Ensure MinGW is installed at `C:/mingw`.
+
+---
+
+### 3. Copy Required Graphics Files
+
+Move the following files to the specified directories:
+
+- `graphics.h` and `winbgim.h` to:
+
+  ```
+  C:/mingw/include
+  ```
+
+- `libbgi.a` to:
+
+  ```
+  C:/mingw/lib
+  ```
+
+---
+
+### 4. Configure VSCode
+
+- Open the project folder in VSCode.
+- The `.vscode` folder already contains the necessary configuration files:
+  - `c_cpp_properties.json`: Configures C++ include paths.
+  - `tasks.json`: Automates build and execution.
+
+---
+
+### 5. Write Your Code
+
+- Create your C++ programs in the `src` folder inside the `Home` directory.
+- Compiled executables will be automatically saved in the `build` folder.
+
+---
+
+### 6. Build and Run Your Code
+
+- Use the **Code Runner** extension to compile and execute programs directly within VSCode.
+- To build the project:
+  - Press `CTRL+SHIFT+B`. This will compile the code and generate executables in the `build` folder.
+
+---
+
+### 7. Run the Executable File
+
+- Use the **Exe Runner** extension to execute the compiled graphics program:
+  - Look for the "Run Executable" button in the top-right corner of VSCode and click it to run your graphics program.
+
+---
+
+## YouTube Tutorial
+
+For a detailed walkthrough of the setup process, watch the [YouTube tutorial](https://www.youtube.com/watch?v=AIX8JSr6MQY).
+
+---
+
+By following this guide, you’ll have `graphics.h` fully set up in VSCode and ready for your graphics programming projects!
 
