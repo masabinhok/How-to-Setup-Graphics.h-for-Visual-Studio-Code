@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/5e9d939e-b952-4919-bca0-c82abfc53f91)# How-to-Setup-Graphics.h-for-Visual-Studio-Code
+# How-to-Setup-Graphics.h-for-Visual-Studio-Code
 
 This guide provides a step-by-step approach to setting up and using `graphics.h` in Visual Studio Code for graphics programming in C++.
 
