@@ -1,4 +1,4 @@
-# How-to-Setup-Graphics.h-for-Visual-Studio-Code
+![image](https://github.com/user-attachments/assets/5e9d939e-b952-4919-bca0-c82abfc53f91)# How-to-Setup-Graphics.h-for-Visual-Studio-Code
 
 This guide provides a step-by-step approach to setting up and using `graphics.h` in Visual Studio Code for graphics programming in C++.
 
@@ -8,15 +8,18 @@ This guide provides a step-by-step approach to setting up and using `graphics.h`
 Ensure you have the following tools and files ready before proceeding:
 
 1. **MinGW** (installed at `C:/mingw`).
-2. **Required Files**:
+   If your preinstalled MinGW fails to work, reinstall it from this [link](https://sourceforge.net/projects/mingw/).
+   ![image](https://github.com/user-attachments/assets/7aa0e871-2665-462c-b001-7332d0c28b9f)
+   Click the first download link on the home page. Continute the installation procedure, make sure to check mark all the basic setup packages.
+3. **Required Files**:
    - `graphics.h`
    - `winbgim.h`
    - `libbgi.a`
-3. **VSCode** with these extensions installed:
+4. **VSCode** with these extensions installed:
    - Code Runner
    - Exe Runner
    - C/C++ Extension Pack
-4. **Cloned Repository**:
+5. **Cloned Repository**:
    - Contains all the required files in a folder named `required_files`.
 
 ---
