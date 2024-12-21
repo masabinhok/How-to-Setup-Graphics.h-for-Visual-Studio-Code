@@ -89,6 +89,7 @@ Move the following files to the specified directories:
 - Open the project folder in VSCode.
 - The `.vscode` folder already contains the necessary configuration files:
   - `c_cpp_properties.json`: Configures C++ include paths.
+     Check this file for any yellow underlines, as they may indicate that the file paths need to be updated to match your system. Ensure MinGW is installed in the C: drive (e.g., C:\mingw64). If the issue persists, consider reinstalling MinGW as described earlier.
   - `tasks.json`: Automates build and execution.
 
 ---
@@ -111,7 +112,7 @@ Move the following files to the specified directories:
 ### 7. Run the Executable File
 
 - Use the **Exe Runner** extension to execute the compiled graphics program:
-  - Look for the "Run Executable" button in the top-right corner of VSCode and click it to run your graphics program.
+- Look for the "Run Executable" button in the top-right corner of VSCode and click it to run your graphics program.
 
 ---
 
